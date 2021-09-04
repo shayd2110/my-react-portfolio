@@ -4,24 +4,28 @@ export const projects = [
 		subtitle: "React App",
 		description:
 			"Search and save movie by search box, Fetch data from OMDb API",
-		image: "./movie-app.gif",
+		image: "https://media.giphy.com/media/EdzrH5QoKVHLEmYAyo/giphy-downsized.gif",
 		link: "https://shay-doron-movie-app.netlify.app/",
+		github_link: "",
 	},
+	
 	{
-		title: "React Tracks",
-		subtitle: "React and Python",
+		title: "Weather website",
+		subtitle: "React and Node",
 		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-		image: "./project-2.gif",
-		link: "https://reactbootcamp.com",
+			"Final Project. built with 4 more teammates Fetch data from https://darksky.net/dev",
+		image: "https://media.giphy.com/media/WGJTlbdCWsW9JiZ5E9/giphy.gif",
+		link: "https://weather-final-project.herokuapp.com/",
+		github_link: "",
 	},
 	{
-		title: "DevChat",
+		title: "Memes Generator",
 		subtitle: "React and Firebase",
 		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-		image: "./project-3.gif",
-		link: "https://reactbootcamp.com",
+			"Memes Generator that use React Component Lifecycle Fetch data from https://imgflip.com/api ",
+		image: "./gifs/meme-gen.gif",
+		link: "https://react-meme-generator-shay.herokuapp.com/",
+		github_link: "",
 	},
 	{
 		title: "Epic Todo App",
@@ -30,5 +34,6 @@ export const projects = [
 			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
 		image: "./project-4.gif",
 		link: "https://reactbootcamp.com",
+		github_link: "",
 	},
 ];
