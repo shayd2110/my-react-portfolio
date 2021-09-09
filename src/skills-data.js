@@ -1,8 +1,11 @@
 export const skills = [
 	"JavaScript",
+	"Java",
 	"React",
 	"Next.js",
 	"Node",
-	"GraphQL",
-	"Material UI",
+	"C# & .NET",
+	"C++",
+	"C",
+	"GIT",
 ];

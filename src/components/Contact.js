@@ -28,7 +28,7 @@ function Contact() {
 	return (
 		<section id="contact" className="relative">
 			<div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-				<div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+				<div className="lg:w-2/3 md:w-1/2  bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
 					<iframe
 						width="100%"
 						height="100%"
@@ -40,7 +40,7 @@ function Contact() {
 						style={{ filter: "opacity(0.7)" }}
 						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3361.084157930356!2d35.15801347591856!3d32.603940601058845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzLCsDM2JzEzLjkiTiAzNcKwMDknMzEuOCJF!5e0!3m2!1sen!2sil!4v1630579864601!5m2!1sen!2sil"
 					/>
-					<div className="bg-gray-900 relative flex flex-warp py-6 rounded shadow-mb">
+					<div className="bg-gray-900 relative flex flex-warp overflow-ellipsis  lg:w-5/6 md:w-1/2 py-6 rounded shadow-mb">
 						<div className="lg:w-1/2 px-6">
 							<h2 className="title-font font-semibold text-white tracking-widest text-xs">
 								ADDRESS

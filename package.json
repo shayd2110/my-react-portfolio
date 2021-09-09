@@ -19,10 +19,10 @@
 		"tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
 	},
 	"scripts": {
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test",
-    "eject": "react-scripts eject"
+		"start": "craco start BROWSER=none",
+		"build": "craco build",
+		"test": "craco test",
+		"eject": "react-scripts eject"
 	},
 	"eslintConfig": {
 		"extends": [
