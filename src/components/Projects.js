@@ -40,10 +40,14 @@ function Projects() {
 									<h1 className="title-font text-lg font-medium text-white mb-3">
 										{project.title}
 									</h1>
-									<p className="leading-relaxed">
+									<p className="leading-relaxed pb-2">
 										{project.description}
 									</p>
-									<button className = "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" >GitHub link</button >
+									<a 
+									className = "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+										href ={project.github_link}
+										target = "_blank"								
+									>GitHub link</a >
 								</div>
 							</div>
 						</a>
