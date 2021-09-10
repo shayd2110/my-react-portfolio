@@ -12,9 +12,7 @@ function About() {
 						amazing apps
 					</h1>
 					<p className="mb-8 leading-relaxed">
-						ipsum dolor sit amet, consectetur adipisicing elit. Qui
-						laborum quasi, incidunt dolore iste nostrum cupiditate
-						voluptas? Laborum, voluptas natus?
+						I'm a computer science graduate. Team Player with a sound mind contributes to a good atmosphere in the team and the progression of tasks. I'm very responsible and committed to the mission; I excel at self-learning and enjoy enriching myself with extensive knowledge and expanding my horizons.
 					</p>
 					<div className="flex-auto flex space-x-3">
 						<a

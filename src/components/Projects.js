@@ -15,9 +15,7 @@ function Projects() {
 						Apps I've Built
 					</h1>
 					<p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-						Lorem ipsum, dolor sit amet consectetur adipisicing
-						elit. Explicabo facilis repellat ab cupiditate alias
-						vero aliquid obcaecati quisquam fuga dolore
+						Some Apps made during my degree and some of them made independently 
 					</p>
 				</div>
 				<div className="flex flex-wrap -mx-4 overflow-hidden mb-20">

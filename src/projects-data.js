@@ -33,7 +33,7 @@ export const projects = [
 		description:
 			"Weather app with 2 Fragments",
 		image: "./gifs/weather-android.gif",
-		link: "./gifs/weather-android(2).gif",
+		link: "https://github.com/shayd2110/Weather-Android-App",
 		github_link: "https://github.com/shayd2110/Weather-Android-App",
 	},
 		{
