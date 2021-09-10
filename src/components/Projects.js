@@ -46,7 +46,8 @@ function Projects() {
 									<a 
 									className = "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
 										href ={project.github_link}
-										target = "_blank"								
+										target = "_blank"
+										rel="noreferrer"										
 									>GitHub link</a >
 								</div>
 							</div>
