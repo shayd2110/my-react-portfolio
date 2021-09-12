@@ -15,7 +15,9 @@ function Projects() {
 						Apps I've Built
 					</h1>
 					<p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-						Some Apps made during my degree and some of them made independently 
+						Lorem ipsum, dolor sit amet consectetur adipisicing
+						elit. Explicabo facilis repellat ab cupiditate alias
+						vero aliquid obcaecati quisquam fuga dolore
 					</p>
 				</div>
 				<div className="flex flex-wrap -mx-4 overflow-hidden mb-20">
@@ -38,15 +40,17 @@ function Projects() {
 									<h1 className="title-font text-lg font-medium text-white mb-3">
 										{project.title}
 									</h1>
-									<p className="leading-relaxed pb-2">
+									<p className="leading-relaxed">
 										{project.description}
 									</p>
-									<a 
-									className = "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-										href ={project.github_link}
-										target = "_blank"
-										rel="noreferrer"										
-									>GitHub link</a >
+									<a
+										className="bg-blue-500 hover:bg-blue-700 text-white font-bold my-2 py-2 px-4 rounded"
+										href={project.github_link}
+										target="_blank"
+										rel="noreferrer"
+									>
+										GitHub link
+									</a>
 								</div>
 							</div>
 						</a>
