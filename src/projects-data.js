@@ -4,7 +4,7 @@ export const projects = [
 		subtitle: "React App",
 		description:
 			"Search and save movie by search box, Fetch data from OMDb API",
-		image:"./gifs/movie-app(2).gif",
+		image: "./gifs/movie-app(2).gif",
 		link: "https://shay-doron-movie-app.netlify.app/",
 		github_link: "https://github.com/shayd2110/movie-app",
 	},
@@ -30,26 +30,25 @@ export const projects = [
 	{
 		title: "Weather App",
 		subtitle: "Android",
-		description:
-			"Weather app with 2 Fragments",
+		description: "Weather app with 2 Fragments",
 		image: "./gifs/weather-android.gif",
-		link: "https://github.com/shayd2110/Weather-Android-App",
+		link: "./gifs/weather-android(2).gif",
 		github_link: "https://github.com/shayd2110/Weather-Android-App",
 	},
-		{
+	{
 		title: "4 in a Row Game",
 		subtitle: "C# WPF game",
 		description:
 			"4 in a Row Game with service and host, game for 2 players",
 		image: "./gifs/4-in-row-cut-speed.gif",
 		link: "https://github.com/shayd2110/ConnectFour_c_sharp_final_proj",
-		github_link: "https://github.com/shayd2110/ConnectFour_c_sharp_final_proj",
+		github_link:
+			"https://github.com/shayd2110/ConnectFour_c_sharp_final_proj",
 	},
 	{
 		title: "Snake Game",
 		subtitle: "C game",
-		description:
-			"Snake Game in C language",
+		description: "Snake Game in C language",
 		image: "./gifs/snake.gif",
 		link: "https://github.com/shayd2110/Snake-Game",
 		github_link: "https://github.com/shayd2110/Snake-Game",

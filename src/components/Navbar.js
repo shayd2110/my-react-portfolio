@@ -20,9 +20,9 @@ const Navbar = () => {
 					<a href="#skills" className="hover:text-white">
 						My Skills
 					</a>
-					<a href="#testimonials" className="hover:text-white">
+					{/* <a href="#testimonials" className="hover:text-white">
 						My Testimonials
-					</a>
+					</a> */}
 				</nav>
 				<a
 					href="#contact"
