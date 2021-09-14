@@ -4,7 +4,7 @@ import { ArrowRightIcon } from "@heroicons/react/solid";
 const Navbar = () => {
 	return (
 		<header className="bg-gray-800 md:sticky top-0 z-10">
-			<div className="container  mx-auto flex flex-wrap p-5 space-x-1 flex-col md:flex-row items-center">
+			<div className="container mx-auto flex flex-wrap p-5  flex-col md:flex-row items-center">
 				<a
 					href=" "
 					className="title-font font-medium text-white mb-4 md:mb-0"
@@ -26,11 +26,11 @@ const Navbar = () => {
 				</nav>
 				<a
 					href="#contact"
-					className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
+					className="inline-flex items-stretch  bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
 				>
 					Work with Me
+					<ArrowRightIcon className="w-4 h-4 ml-1 self-center" />
 				</a>
-				<ArrowRightIcon className="w-4 h-4 ml-1" />
 			</div>
 		</header>
 	);

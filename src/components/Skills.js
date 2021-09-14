@@ -1,9 +1,10 @@
+/* eslint-disable */
 import React from "react";
 import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
-import { skills } from "../skills-data";
+import { skills } from "../‏‏skills-data";
 
 function Skills() {
-	var _skills = skills.sort();
+	var _skills = skills.sort((a, b) => a.image.localeCompare(b.image));
 	return (
 		<section id="skills">
 			<div className="container px-5 mx-auto py-2">
@@ -17,14 +18,17 @@ function Skills() {
 						around the web
 					</p>
 				</div>
-				<div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+				<div className="flex flex-wrap  lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
 					{_skills.map((skill) => (
 						<div key={skill} className="p-2 sm:w-1/2 w-full">
 							<div className="bg-gray-800 rounderd flex p-4 h-full items-center">
 								<BadgeCheckIcon className="text-gray-400 w-6 h-6 flex-shrink-0 mr-4" />
 								<span className="title-font font-medium text-white">
-									{skill}
+									{skill.title}
 								</span>
+								<i
+									className={`pl-1 text-accent-base text-4xl ml-auto  ${skill.image}`}
+								></i>
 							</div>
 						</div>
 					))}

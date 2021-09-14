@@ -1,0 +1,22 @@
+export const skills = [
+	{title:"SQL", image:" "},
+	{title:"HTML", image:"devicon-csharp-plain"},
+	{title:"CSS",image:"devicon-css3-plain-wordmark"},
+	{title:"Tailwind",image:"devicon-tailwindcss-plain"},
+	{title:"BootStrap",image:"devicon-bootstrap-plain-wordmark"},
+	{title:"JavaScript",image:"devicon-javascript-plain"},
+	{title:"Java",image:"devicon-java-plain"},
+	{title:"React",image:"devicon-react-original-wordmark"},
+	{title:"React Native",image:" "},
+	{title:"Node",image:"devicon-nodejs-plain-wordmark"},
+	{title:"C# & .NET",image:"devicon-csharp-plain-wordmark devicon-dotnetcore-plain"},
+	{title:"C++",image:"devicon-cplusplus-plain"},
+	{title:"C",image:"devicon-c-plain"},
+	{title:"Python",image:"devicon-python-plain"},
+	{title:"Android",image:"devicon-android-plain-wordmark"},
+	{title:"GIT",image:"devicon-git-plain"},
+	{title:"GitHub",image:"devicon-github-original"},
+	{title:"PHP",image:"devicon-php-plain"},
+	{title:"Linux",image:"devicon-linux-plain"},
+	{title:"WPF",image:" "}
+];

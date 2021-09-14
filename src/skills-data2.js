@@ -15,4 +15,7 @@ export const skills = [
 	"Python",
 	"Android",
 	"GIT",
+	"PHP",
+	"Linux",
+	"WPF"
 ];
