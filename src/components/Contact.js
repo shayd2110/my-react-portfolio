@@ -63,7 +63,8 @@ function Contact() {
 							<h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
 								PHONE
 							</h2>
-							<p className="leading-relaxed">+972 54 667-6278 </p>
+							<a className="leading-relaxed" href = "tel:+972546676278">+972 54 667-6278</a>
+							{/* <p className="leading-relaxed">+972 54 667-6278 </p> */}
 						</div>
 					</div>
 				</div>
