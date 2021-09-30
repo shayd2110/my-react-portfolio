@@ -2,9 +2,17 @@
 import React from "react";
 import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import { skills } from "../‏‏skills-data";
+import { firstBy } from "thenby";
 
 function Skills() {
-	var _skills = skills.sort((a, b) => a.image.localeCompare(b.image));
+	// var _skills = skills.sort(
+	// 	(a, b) =>
+	// 		a.category.localeCompare(b.category) ||
+	// 		(a.image.localeCompare(b.image) && a.title.localeCompare(b.title))
+	// );
+	var _skills = skills.sort(
+		firstBy("category").thenBy("image").thenBy("title")
+	);
 	return (
 		<section id="skills">
 			<div className="container px-5 mx-auto py-2">
