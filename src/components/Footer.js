@@ -47,7 +47,7 @@ const Footer = () => {
 						</a>
 					</li>
 										<li className="my-auto mx-2 hidden">
-<a href="https://www.hitwebcounter.com" target="_blank">
+<a href="https://www.hitwebcounter.com" target="_blank" rel="noreferrer">
 <img src="https://hitwebcounter.com/counter/counter.php?page=7883278&style=0006&nbdigits=1&type=ip&initCount=0" title="Free Counter" Alt="web counter"   border="0" /></a>                                    
                                     
                                         
