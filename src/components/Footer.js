@@ -32,6 +32,28 @@ const Footer = () => {
 							<FontAwesomeIcon icon={faGithub} />
 						</a>
 					</li>
+					<li className="my-auto mx-2 hidden">
+						<a
+							href="https://www.hitwebcounter.com"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<img
+								src="https://hitwebcounter.com/counter/counter.php?page=7883275&style=0003&nbdigits=1&type=page&initCount=0"
+								title="Free Counter"
+								Alt="web counter"
+								border="0"
+							/>
+						</a>
+					</li>
+										<li className="my-auto mx-2 hidden">
+<a href="https://www.hitwebcounter.com" target="_blank">
+<img src="https://hitwebcounter.com/counter/counter.php?page=7883278&style=0006&nbdigits=1&type=ip&initCount=0" title="Free Counter" Alt="web counter"   border="0" /></a>                                    
+                                    
+                                        
+                                          
+                            
+					</li>
 				</ul>
 			</div>
 		</footer>
