@@ -2,8 +2,13 @@
 	"name": "my-react-portfolio",
 	"version": "0.1.0",
 	"private": true,
+	"description": "Personal portfolio site for Shay Doron, built with React and Tailwind CSS.",
+	"license": "MIT",
+	"engines": {
+		"node": "16.x"
+	},
 	"dependencies": {
-		"@craco/craco": "^5.9.0",
+		"@craco/craco": "^6.4.5",
 		"@fortawesome/fontawesome-svg-core": "^1.2.36",
 		"@fortawesome/free-brands-svg-icons": "^5.15.4",
 		"@fortawesome/free-solid-svg-icons": "^5.15.4",
