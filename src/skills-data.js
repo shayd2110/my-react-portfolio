@@ -1,6 +1,10 @@
 export const skills = [
 	{ title: "SQL", image: " ", category: "DB" },
-	{ title: "HTML", image: "devicon-csharp-plain", category: "2-frontend" },
+	{
+		title: "HTML",
+		image: "devicon-html5-plain-wordmark",
+		category: "2-frontend",
+	},
 	{
 		title: "CSS",
 		image: "devicon-css3-plain-wordmark",
